@@ -16,7 +16,7 @@
                 <div class="col-6 text-white text-uppercase">
                     <p>start bootstrap</p>
                 </div>
-                <div class="col-6 text-white d-flex justify-content-end">
+                <div class="col-6 text-white d-flex justify-content-end ">
                     <div class="dropdown">
                         <button class="btn btn-secondary  CPM-bg-T CPM-grey" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-bars"></i>
@@ -24,7 +24,14 @@
                         <ul class="dropdown-menu bg-black">
                             <li><button class="dropdown-item text-white CPM-hover text-uppercase" type="button">Portfolio</button></li>
                             <li><button class="dropdown-item text-white CPM-hover text-uppercase" type="button">About</button></li>
-                            <li><button class="dropdown-item text-white CPM-hover text-uppercase" type="button">contact</button></li>
+                            <li><button class="dropdown-item text-white CPM-hover text-uppercase" type="button">Contact</button></li>
+                        </ul>
+                    </div>
+                    <div class="none appear">
+                        <ul class="text-white d-flex">
+                            <li><a href="">Portfolio</a></li>
+                            <li class="p20-left"><a href="">About</a></li>
+                            <li class="p20-left"><a href="">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -32,20 +39,20 @@
          </nav>
     </header>
     <main>
-        <section id="Hero" class="CPM-m80-top my-5">
+        <section id="Hero" class="CPM-p80-top my-5 py-5">
             <div class="container text-center text-uppercase">
                 <img src="./img/avatar.svg" alt="Avatar"> 
                 <h1 class="">start bootstrap</h1>
-                <div class="CPM-icon w-50 mx-auto d-flex align-items-center">
+                <div class="CPM-icon w-50 mx-auto d-flex align-items-center py-5">
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <p class="fs-2">graphic artist - web designer - illustrator</p>
             </div>
         </section>
-        <section id="Portfolio" class="my-5">
+        <section id="Portfolio" class="my-5 py-2">
             <div class="container text-center text-uppercase">
                 <h2 class="display-6 fw-semibold">Portfolio</h2>
-                <div class="CPM-icon-black w-50 mx-auto d-flex align-items-center">
+                <div class="CPM-icon-black w-50 mx-auto d-flex align-items-center py-5">
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <div class="row g-3">
@@ -82,10 +89,27 @@
                 </div>
             </div>
         </section>
-        <section id="About" class="my-5">
-            about
+        <section id="About" class="my-5 py-5">
+            <div class="container text-center">
+                <h1 class="text-uppercase text-center">about</h1>
+                <div class="CPM-icon w-50 mx-auto d-flex align-items-center text-center py-5">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="row fs-3 g-5 justify-content-center">
+                    <div class="col-12 col-sm-6 col-md-4">
+                        Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <button type="button" class="btn btn-outline-primary border-white text-white fs-5"><i class="fa-solid fa-download pe-2"></i>Download</button>
+                </div>
+
+            </div>
         </section>
-        <section id="Contact" class="my-5">
+        <section id="Contact" class="my-5 py-5">
             contact
         </section>
     </main>

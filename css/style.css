@@ -46,8 +46,8 @@ header{
     color: var(--black);
 }
 
-.CPM-m80-top{
-    margin-top: 80px;
+.CPM-p80-top{
+    padding-top: 80px;
 }
 
 #Hero img{
@@ -114,4 +114,34 @@ header{
 
 .CPM-img-container:hover:after{
     opacity: 1;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+nav a:hover{
+    color: var(--bg-section-b);
+}
+
+.none{
+    display: none;
+}
+
+nav ul{
+    list-style: none;
+}
+
+.p20-left{
+    padding-left: 20px;
+}
+
+@media screen and (min-width: 768px){
+    .dropdown{
+        display: none;
+    }
+    .appear{
+        display:block;
+    }
 }
