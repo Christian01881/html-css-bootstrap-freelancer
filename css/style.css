@@ -15,6 +15,10 @@ body{
     background-color: transparent;
 }
 
+.CPM-bg-btn{
+    background-color: var(--bg-section-b);
+}
+
 .CPM-grey{
     color: var(--menu);
 }
@@ -144,4 +148,23 @@ nav ul{
     .appear{
         display:block;
     }
+}
+
+
+footer{
+    background-color: var(--lightgrey);
+}
+
+#Footer-bot{
+    background-color: var(--darkgrey);
+    height: 80px;
+}
+
+.CPM-circle{
+    width: 80px;
+    height: 80px;
+}
+
+.CPM-color{
+    color: var(--bg-section-b);
 }
