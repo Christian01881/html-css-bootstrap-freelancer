@@ -1,0 +1,117 @@
+:root{
+    --darkgrey:#2c3e50;
+    --bg-section-b:#1abc9c;
+    --white:#ffffff;
+    --black:#333333;
+    --lightgrey:#3a546d;
+    --menu:#888888;
+}
+
+body{
+    color: var(--white);
+}
+
+.CPM-bg-T{
+    background-color: transparent;
+}
+
+.CPM-grey{
+    color: var(--menu);
+}
+
+.CPM-hover:hover{
+    background-color: var(--bg-section-b);
+}
+
+header{
+    background-color: var(--darkgrey);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.CPM-m25-top{
+    margin-top: 25px;
+}
+
+#Hero, #About{
+    background-color: var(--bg-section-b);
+}
+
+#Portfolio, #Contact{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.CPM-m80-top{
+    margin-top: 80px;
+}
+
+#Hero img{
+    max-width: 250px;
+}
+
+#Hero h1{
+    font-size: 50px;
+}
+
+.CPM-icon::before, .CPM-icon::after{
+    content: '';
+    display: block;
+    width: 40%;
+    height: 4px;
+    border-radius: 3px;
+    background-color: var(--white);
+
+}
+
+.CPM-icon i{
+    display: block;
+    width: 20%;
+    font-size: 25px;
+}
+
+
+.CPM-icon-black::before, .CPM-icon-black::after{
+    content: '';
+    display: block;
+    width: 40%;
+    height: 4px;
+    border-radius: 3px;
+    background-color: var(--black);
+}
+
+.CPM-icon-black i {
+    display: block;
+    width: 20%;
+    font-size: 25px;
+}
+
+.CPM-img-container{
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.CPM-img-container::after{
+    content: '+';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(26, 188, 156, 0.7);
+    color: var(--white);
+    opacity: 0;
+}
+
+.CPM-img-container:hover:after{
+    opacity: 1;
+}
